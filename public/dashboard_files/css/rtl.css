@@ -1,0 +1,17 @@
+.sidebar-menu li a .fa-angle-left,
+.sidebar-menu li .label, .sidebar-menu li .badge {
+	margin-top: -15px !important;
+}
+
+.pull-left {
+    float: right !important
+}
+
+.pull-right {
+    float: left !important
+}
+
+/* Dashboard.Index */
+nav .fa-flag-o {
+    margin-right: 5px !important
+}

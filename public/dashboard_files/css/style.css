@@ -1,0 +1,99 @@
+/* Global Style */
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.col-md-6, .col-sm-12 {
+    padding-rihgt: 0px !important
+}
+
+/* Dashboard.Index */
+nav.navbar {
+    background: rgb(60,141,188);
+    background: radial-gradient(circle, rgba(60,141,188,1) 0%, rgba(34,45,50,1) 100%);
+}
+
+nav .sidebar-toggle:hover {
+    background-color: transparent !important;
+}
+
+nav .dropdown-language {
+    height: 84px !important
+}
+
+nav .fa-flag-o {
+    margin-left: 5px !important
+}
+
+nav a.language-link {
+    font-size: 18px;
+    transition-duration: 0.5s;
+    background: #367fa9;
+    color: #FFF;
+}
+
+nav li.header {
+    border-bottom: none !important;
+    padding: 4px 9px !important;
+}
+
+nav .sign-out-btn {
+    width: 100%;
+    font-size: 17px;
+    background: rgb(34,45,50);
+    background: radial-gradient(circle, rgba(34,45,50,1) 0%, rgba(189,189,189,1) 100%);
+    color: #FFF !important;
+    border-radius: 5px !important;
+}
+
+/* Aside */
+.user-panel > .info {
+    right: 65px !important
+}
+
+/* Dashboard.users.index */
+.box.box-primary {
+    margin-top: 15px
+}
+
+.fa-dashboard {
+    margin-left: 5px
+}
+
+.box-header .form-control {
+    border-radius: 5px;
+}
+
+.box-header .fa-plus,.box-header .fa-search,.box-body .fa-edit,.box-body .fa-trash {
+    margin-left: 2px
+}
+
+.box-header {
+    padding-bottom: 0px;
+    padding-top: 15px
+}
+
+/* Dashboard.Users.Create */
+.box .form-control.margin {
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+select.form-control.margin {
+    height: auto
+}
+
+.box-body .fa-plus {
+    margin-left: 2px
+}
+
+.box-body .tab-content>.active {
+    margin-top: 15px
+}
+
+.box-body label.flag {
+    bottom: 2px;
+    position: relative;
+    margin-left: 10px
+}
